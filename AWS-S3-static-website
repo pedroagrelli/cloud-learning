@@ -1,0 +1,18 @@
+# S3 Static Website Hosting
+
+##Hospedei um site estático usando Amazon S3.
+
+## Passos:
+- Criei bucket S3
+- Desativei Block Public Access
+- Configurei Static Website Hosting
+- Adicionei policy pública
+
+## Problemas encontrados
+- AccessDenied ao acessar o site
+
+## Solução
+Ajustei a bucket policy permitindo leitura pública.
+
+## Resultado:
+https://pedroagrelli-bucket.s3.us-east-1.amazonaws.com/pedroagrelli-portfolio.html
